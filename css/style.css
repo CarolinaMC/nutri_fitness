@@ -326,6 +326,14 @@ ul.dropdown-menu.drp-mnu li a i {
 	-o-background-size:cover;
 	-ms-background-size:cover;
 }
+.w3l_banner_nav_right_bannerAbdominal{
+    background:url(../images/abdominal.jpg) no-repeat 0px 0px;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -ms-background-size:cover;
+}
 .w3l_banner_nav_right_banner h3,.w3l_banner_nav_right_banner1 h3,.w3l_banner_nav_right_banner2 h3{
 	font-size: 2em;
     color: #fff;
@@ -1229,7 +1237,10 @@ button.submit.check_out{
 }
 /*-- //products-breadcrumb --*/
 /*-- products --*/
-.w3l_banner_nav_right_banner3,.w3l_banner_nav_right_banner4,.w3l_banner_nav_right_banner5,.w3l_banner_nav_right_banner6,.w3l_banner_nav_right_banner7,.w3l_banner_nav_right_banner8,.w3l_banner_nav_right_banner9,.w3l_banner_nav_right_bannerControlPeso,.w3l_banner_nav_right_bannerBarritas,.w3l_banner_nav_right_banner10{
+.w3l_banner_nav_right_banner3,.w3l_banner_nav_right_banner4,.w3l_banner_nav_right_banner5,.w3l_banner_nav_right_banner6,
+.w3l_banner_nav_right_banner7,.w3l_banner_nav_right_banner8,.w3l_banner_nav_right_bannerBandas,
+.w3l_banner_nav_right_banner9,.w3l_banner_nav_right_bannerAbdominal,.w3l_banner_nav_right_bannerControlPeso,
+.w3l_banner_nav_right_bannerBarritas,.w3l_banner_nav_right_banner10,.w3l_banner_nav_right_bannerEsterillas{
 	min-height:300px;
 	padding-top: 7em;
 }
@@ -1256,6 +1267,22 @@ button.submit.check_out{
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
+}
+.w3l_banner_nav_right_bannerBandas{
+    background:url(../images/bandas.png) no-repeat 0px 0px;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -ms-background-size:cover;
+}
+.w3l_banner_nav_right_bannerEsterillas{
+    background:url(../images/esterillas.jpg) no-repeat 0px 0px;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -ms-background-size:cover;
 }
 .w3l_banner_nav_right_banner6{
 	background:url(../images/21.jpg) no-repeat 0px 0px;
