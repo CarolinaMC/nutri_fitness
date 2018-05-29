@@ -17,8 +17,9 @@
 	}
 	$sql = "INSERT INTO registro values ('$UserName', '$contraseña', '$Correo', '$Telefono')";
 	if($mysqli->query($sql)==TRUE){
-		echo "<script>alert('Usuario Registrado Correctamente'); window.location.href = \" file:///C:/ANGELICA/UNA/5AÑO-PRIMER%20SEMESTRE/Aplicaciones%20Globales/Proyecto/index.html\"</script>";
-		return true;
+		echo "<script>alert('Usuario Registrado Correctamente');";		
+		header("Location:/proyecto2/login.php");
+		exit();
 	}else {
 		echo "error";
 	}
