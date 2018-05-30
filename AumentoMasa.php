@@ -39,30 +39,36 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 <body>
 <!-- header -->
-<div class="agileits_header">
-		<div class="w3l_offers">
+	<div class="agileits_header">
+		<div class="w3l_offers" >
 			<a href="index.php">Ofertas especiales!</a>
 		</div>
 		<div class="w3l_search">
 			<form action="#" method="post">
-				<input type="text" name="Product" value="Buscar producto..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search a product...';}" required="">
+				<input type="text" name="Product" value="Buscar producto..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Buscar producto';}" required="">
 				<input type="submit" value=" ">
 			</form>
 		</div>
 		<div class="product_list_header">  
-			<form action="#" method="post" class="last">
-                <fieldset>
-                    <input type="hidden" name="cmd" value="_cart" />
-                    <input type="hidden" name="display" value="1" />
-                    <input type="submit" name="submit" value="Ver carrito     " class="button" />
-                </fieldset>
-            </form>
-		</div>
+            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+						<fieldset>
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+						">
+						<!--<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">-->
+						<input type="submit" name="submit" value="Ver carrito      " class="button" />
+						<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+						</fieldset>
+					</form>
+		 </div>
+			<!--<div class="w3l_offers" id="usernameClass">				
+				<h2><?php if(isset($_SESSION["usuario"])){echo $_SESSION["usuario"]["username"];}?></h2>
+			</div> -->
 		<div class="w3l_header_right">
-			<div class="username">
-				<?php if(isset($_SESSION["usuario"])){echo $_SESSION["usuario"]["username"]; }?>
-			</div>
 			<ul>
+				<div class="usernameClass">				
+				<a><?php if(isset($_SESSION["usuario"])){echo $_SESSION["usuario"]["username"];}?></a>
+			</div>
 				<li class="dropdown profile_details_drop">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user" aria-hidden="true"></i><span class="caret"></span></a>
 					<div class="mega-dropdown-menu">
@@ -70,6 +76,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<ul class="dropdown-menu drp-mnu">
 								<li><a href="login.php">Entrar</a></li> 
 								<li><a href="login.php">Regístrate</a></li>
+								<li><a href="login.php">Salir</a></li>
 							</ul>
 						</div>                  
 					</div>	
@@ -79,7 +86,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="w3l_header_right1">
 			<h2><a href="mail.php">Contáctenos</a></h2>
 		</div>
-		<div class="clearfix"> </div>
+		
 	</div>
 <!-- script-for sticky-nav -->
 	<script>
@@ -100,13 +107,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="logo_products">
 		<div class="container">
 			<div class="w3ls_logo_products_left">
-				<h1><a href="index.php"><span></span> Nutri-Fitness</a></h1>
+				<h1><a href="index.php"><span></span> <img src="images/nutrifitnes2.png" alt=" " class="img-responsive" width="60%" height="30%"/></a></h1>
 			</div>
-			<div></div>
+			<div><br><br></div>
 			<div class="w3ls_logo_products_left1">
 				<ul class="phone_email">
 					<li><i class="fa fa-phone" aria-hidden="true"></i>2234 6567</li>
-					<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:store@grocery.com">nutrifitness@gmail.com</a></li>
+					<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:store@grocery.com">nutrifitnessweb3@gmail.com</a></li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>
@@ -181,24 +188,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
 											<a href="#"><img src="images/Productos/AumentoMasa/nutrisport-bodyplus-fresa-850gr.jpg" alt=" " class="img-responsive" /></a>
-											<p>nutrisport Fresa (850gr)</p>
+											<p>Nutrisport Fresa (850gr)</p>
 											<h4>$20.00 <span>$25.00</span></h4>
 										</div>
+										<div><br></div>
 										<div class="snipcart-details">
-											<form action="#" method="post">
-												<fieldset>
-													<input type="hidden" name="cmd" value="_cart" />
-													<input type="hidden" name="add" value="1" />
-													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="nutrisport Fresa" />
-													<input type="hidden" name="amount" value="8.00" />
-													<input type="hidden" name="discount_amount" value="5.00" />
-													<input type="hidden" name="currency_code" value="USD" />
-													<input type="hidden" name="return" value=" " />
-													<input type="hidden" name="cancel_return" value=" " />
-													<input type="submit" name="submit" value="Añadir al Carrito" class="button" />
-												</fieldset>
+											<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+											<input type="hidden" name="cmd" value="_s-xclick">
+											<input type="hidden" name="hosted_button_id" value="S8G4Y68KRHB5L">
+											<input type="submit" name="submit" value="Añadir al Carrito" class="button" />
+											<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
 											</form>
+
 										</div>
 									</div>
 								</figure>
@@ -218,23 +219,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<div class="snipcart-thumb">
 											<a href="#"><img src="images/Productos/AumentoMasa/nutrisport-bodyplus-yogurt-y-platano-1.8kg.jpg" alt=" " class="img-responsive" /></a>
 											<p>Nutrisport Bodyplus Yogurt y Platano(1.8kg)</p>
-											<h4>$37<span>$40</span></h4>
+											<h4>$37.00<span>$40.00</span></h4>
 										</div>
 										<div class="snipcart-details">
-											<form action="#" method="post">
-												<fieldset>
-													<input type="hidden" name="cmd" value="_cart" />
-													<input type="hidden" name="add" value="1" />
-													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="Nutrisport Bodyplus Yogurt y Platano" />
-													<input type="hidden" name="amount" value="37.95" />
-													<input type="hidden" name="discount_amount" value="3.00" />
-													<input type="hidden" name="currency_code" value="USD" />
-													<input type="hidden" name="return" value=" " />
-													<input type="hidden" name="cancel_return" value=" " />
-													<input type="submit" name="submit" value="Añadir al Carrito" class="button" />
-												</fieldset>
-											</form>
+											<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+												<input type="hidden" name="cmd" value="_s-xclick">
+												<input type="hidden" name="hosted_button_id" value="AYEYYVLNJF95Y">
+												<input type="submit" name="submit" value="Añadir al Carrito" class="button" />
+												<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+												</form>
+
 										</div>
 									</div>
 								</figure>
@@ -257,20 +251,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<h4>$30.00 <span>$36.00</span></h4>
 										</div>
 										<div class="snipcart-details">
-											<form action="#" method="post">
-												<fieldset>
-													<input type="hidden" name="cmd" value="_cart" />
-													<input type="hidden" name="add" value="1" />
-													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="Nutrisport Megapower Chocolate" />
-													<input type="hidden" name="amount" value="9.00" />
-													<input type="hidden" name="discount_amount" value="6.00" />
-													<input type="hidden" name="currency_code" value="USD" />
-													<input type="hidden" name="return" value=" " />
-													<input type="hidden" name="cancel_return" value=" " />
-													<input type="submit" name="submit" value="Añadir al Carrito" class="button" />
-												</fieldset>
+											<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+											<input type="hidden" name="cmd" value="_s-xclick">
+											<input type="hidden" name="hosted_button_id" value="838FJEPWVYXEU">
+											<input type="submit" name="submit" value="Añadir al Carrito" class="button" />
+											<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
 											</form>
+
 										</div>
 									</div>
 								</figure>
@@ -293,20 +280,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<h4>$26.00 <span>$30.00</span></h4>
 										</div>
 										<div class="snipcart-details">
-											<form action="#" method="post">
-												<fieldset>
-													<input type="hidden" name="cmd" value="_cart" />
-													<input type="hidden" name="add" value="1" />
-													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="Nutrisport Megapower Chocolate" />
-													<input type="hidden" name="amount" value="15.00" />
-													<input type="hidden" name="discount_amount" value="4.00" />
-													<input type="hidden" name="currency_code" value="USD" />
-													<input type="hidden" name="return" value=" " />
-													<input type="hidden" name="cancel_return" value=" " />
-													<input type="submit" name="submit" value="Añadir al Carrito" class="button" />
-												</fieldset>
+											<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+											<input type="hidden" name="cmd" value="_s-xclick">
+											<input type="hidden" name="hosted_button_id" value="9M376PJZQFZ7E">
+											<input type="submit" name="submit" value="Añadir al Carrito" class="button" />
+											<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
 											</form>
+
 										</div>
 									</div>
 								</figure>
@@ -332,20 +312,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<h4>$26.00 <span>$30.00</span></h4>
 										</div>
 										<div class="snipcart-details">
-											<form action="#" method="post">
-												<fieldset>
-													<input type="hidden" name="cmd" value="_cart" />
-													<input type="hidden" name="add" value="1" />
-													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="Nutrisport Megapower Fresa" />
-													<input type="hidden" name="amount" value="8.00" />
-													<input type="hidden" name="discount_amount" value="4.00" />
-													<input type="hidden" name="currency_code" value="USD" />
-													<input type="hidden" name="return" value=" " />
-													<input type="hidden" name="cancel_return" value=" " />
-													<input type="submit" name="submit" value="Añadir al Carrito" class="button" />
-												</fieldset>
+											<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+											<input type="hidden" name="cmd" value="_s-xclick">
+											<input type="hidden" name="hosted_button_id" value="PNTJXGYWGWH3Q">
+											<input type="submit" name="submit" value="Añadir al Carrito" class="button" />
+											<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
 											</form>
+
 										</div>
 									</div>
 								</figure>
@@ -368,20 +341,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<h4>$26.00 <span>$30.00</span></h4>
 										</div>
 										<div class="snipcart-details">
-											<form action="#" method="post">
-												<fieldset>
-													<input type="hidden" name="cmd" value="_cart" />
-													<input type="hidden" name="add" value="1" />
-													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="Nutrisport Megapower Vanilla" />
-													<input type="hidden" name="amount" value="4.00" />
-													<input type="hidden" name="discount_amount" value="1.00" />
-													<input type="hidden" name="currency_code" value="USD" />
-													<input type="hidden" name="return" value=" " />
-													<input type="hidden" name="cancel_return" value=" " />
-													<input type="submit" name="submit" value="Añadir al Carrito" class="button" />
-												</fieldset>
+											<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+											<input type="hidden" name="cmd" value="_s-xclick">
+											<input type="hidden" name="hosted_button_id" value="QNFRHP9LQ6KXE">
+											<input type="submit" name="submit" value="Añadir al Carrito" class="button" />
+											<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
 											</form>
+
 										</div>
 									</div>
 								</figure>
@@ -404,27 +370,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- footer -->
 	<div class="footer">
 		<div class="container">
-			<div class="col-md-4 w3_footer_grid">
+			<div class="col-md-6 w3_footer_grid">
 				<h3>Información</h3>
 				<ul class="w3_footer_grid_list">
 					<li><a href="about.php">Sobre nosotros</a></li>
 				</ul>
 			</div>
-			<div class="col-md-4 w3_footer_grid">
+			<div class="col-md-6 w3_footer_grid">
 				<h3>Politicas del sitio</h3>
 				<ul class="w3_footer_grid_list">
 					<li><a href="privacy.php">Politicas de privacidad</a></li>
-					<li><a href="privacy.php">Equipo de trabajo</a></li>
-				</ul>
-			</div>
-			<div class="col-md-4 w3_footer_grid">
-				<h3>Que podes encontrar en la tienda</h3>
-				<ul class="w3_footer_grid_list">
-					<li><a href="Proteinas.php">Proteinas</a></li>
-					<li><a href="VitaminasMinerales.php">Vitaminas y minerales</a></li>
-					<li><a href="ControlPeso.php">Productos para control de peso</a></li>
-					<li><a href="Fitballs.php">Fitballs</a></li>
-					<li><a href="Barritas.php">Barritas y mucho mas.</a></li>
+					<li><a href="about.php">Equipo de trabajo</a></li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>
@@ -450,7 +406,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="clearfix"> </div>
 			</div>
 			<div class="wthree_footer_copy">
-				<p>© 2018 Nutri-Fitness. Todos los derechos reservados | Creada para la Globalizacion por  <a href="http://w3layouts.com/">Angelica,Carolina,Liseth</a></p>
+				<p>© 2018 Nutri-Fitness. Todos los derechos reservados | Creada para la Globalización por  <a href="http://w3layouts.com/">Angelica,Carolina,Liseth</a></p>
 			</div>
 		</div>
 	</div>

@@ -337,6 +337,16 @@ ul.dropdown-menu.drp-mnu li a i {
     -o-background-size:cover;
     -ms-background-size:cover;
 }
+
+.w3l_banner_nav_right_fill{
+    background:url(../images/fill2.jpg) no-repeat 0px 0px;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -ms-background-size:cover;
+}
+
 .w3l_banner_nav_right_banner h3,.w3l_banner_nav_right_banner1 h3,.w3l_banner_nav_right_banner2 h3{
     font-size: 2em;
     color: #fff;
@@ -1287,6 +1297,15 @@ button.submit.check_out{
     -o-background-size:cover;
     -ms-background-size:cover;
 }
+.w3l_banner_nav_right_bannerFill{
+    background:url(../images/fill2.jpg) no-repeat 0px 0px;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -ms-background-size:cover;
+}
+
 .w3l_banner_nav_right_banner6{
     background:url(../images/21.jpg) no-repeat 0px 0px;
     background-size:cover;
@@ -4888,5 +4907,15 @@ input.checkbox:checked:after {
         padding: .3em 2.5em .3em 0.8em;
         background: url(../images/cart.png) no-repeat 105px 5px;
         font-size: 13px;
+    }
+    .usernameClass a{
+        font-size: 13px;
+        color: white;
+        float:left;
+        text-align: center;
+        background:#212121;
+        color: #fff;
+        top: 2em;
+
     }
 }
