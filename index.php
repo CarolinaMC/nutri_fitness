@@ -59,8 +59,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<div class="w3l_header_right">
 			<div class="username">
-				<?php if(isset($_SESSION["usuario"])){echo $_SESSION["usuario"]["username"]; }
-				 ?>
+				<?php if(isset($_SESSION["usuario"])){echo $_SESSION["usuario"]["username"]; }?>
 			</div>
 			<ul>
 				<li class="dropdown profile_details_drop">
