@@ -23,13 +23,13 @@ if(isset($_POST['Username']) && isset($_POST['Password']) &&
 	}
 	$conn->close();
 	if($existeUsuario){
-		header("Location:/proyecto2/index.php");
+		header("Location:/nutri_fitness/index.php");
 		exit();
 	}
 	else{
 		session_start();
 		$_SESSION["errMsg"] = "Usuario o contraseña incorrecta";
-		header("Location:/proyecto2/login.php");
+		header("Location:/nutri_fitness/login.php");
 		exit();
 	}
 	

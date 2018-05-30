@@ -245,7 +245,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 	if( Username.value=="angelicamrs16@gmail.com" && password1.value=="123"){
 		alert("Bienvenid@ " + Username.value);
-		window.location.href = "file:///C:/ANGELICA/UNA/5AÑO-PRIMER%20SEMESTRE/Aplicaciones%20Globales/Proyecto/index.php";
+		window.location.href = "file:///C:/ANGELICA/UNA/5AÑO-PRIMER%20SEMESTRE/Aplicaciones%20Globales/nutri_fitness/index.php";
 		return true;
 
 		//alert("Bienvenid@ " + Username.value);

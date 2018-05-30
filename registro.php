@@ -18,7 +18,7 @@
 	$sql = "INSERT INTO registro values ('$UserName', '$contraseña', '$Correo', '$Telefono')";
 	if($mysqli->query($sql)==TRUE){
 		echo "<script>alert('Usuario Registrado Correctamente');";		
-		header("Location:/proyecto2/login.php");
+		header("Location:/nutri_fitness/login.php");
 		exit();
 	}else {
 		echo "error";
