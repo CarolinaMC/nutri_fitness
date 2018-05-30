@@ -40,7 +40,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- header -->
 	<div class="agileits_header">
 		<div class="w3l_offers">
-			<a href="products.html">Ofertas especiales!</a>
+			<a href="index.php">Ofertas especiales!</a>
 		</div>
 		<div class="w3l_search">
 			<form action="#" method="post">
@@ -73,7 +73,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</ul>
 		</div>
 		<div class="w3l_header_right1">
-			<h2><a href="mail.html">Contáctenos</a></h2>
+			<h2><a href="mail.php">Contáctenos</a></h2>
 		</div>
 		<div class="clearfix"> </div>
 	</div>
@@ -113,8 +113,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="products-breadcrumb">
 		<div class="container">
 			<ul>
-				<li><i class="fa fa-home" aria-hidden="true"></i><a href="index.php">Página Principal</a><span>|</span></li>
-				<li>Energéticos</li>
+				<li><i class="fa fa-home" aria-hidden="true"></i><a href="index.php">Pagina Principal</a><span>|</span></li>
+				<li>Control Peso</li>
 			</ul>
 		</div>
 	</div>
@@ -135,37 +135,37 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			   <!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav nav_1">
-						<li><a href="AumentoMasa.html">Aumento de Masa</a></li><!--Branded Foods-->
-						<li><a href="Barritas.html">Barritas</a></li><!-- Households-->
+						<li><a href="AumentoMasa.php">Aumento de Masa</a></li><!--Branded Foods-->
+						<li><a href="Barritas.php">Barritas</a></li><!-- Households-->
 						<li class="dropdown mega-dropdown active">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Accesorios de Entrenamiento<span class="caret"></span></a><!--Veggies & Fruits-->			
 							<div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
 								<div class="w3ls_vegetables">
 									<ul>	
-										<li><a href="EntrenamientoAbdominal.html">Entrenamiento Abdominal</a></li>
-										<li><a href="BandasElasticas.html">Bandas Elasticas</a></li>
-										<li><a href="ColchonetasEsterillas.html">Colchonetas - Esterillas</a></li>
-										<li><a href="Fitballs.html">Fitballs</a></li>
+										<li><a href="EntrenamientoAbdominal.php">Entrenamiento Abdominal</a></li>
+										<li><a href="BandasElasticas.php">Bandas Elasticas</a></li>
+										<li><a href="ColchonetasEsterillas.php">Colchonetas - Esterillas</a></li>
+										<li><a href="Fitballs.php">Fitballs</a></li>
 									</ul>
 								</div>                  
 							</div>				
 						</li>
-						<li><a href="ControlPeso.html">Control de Peso</a></li>
-						<li><a href="Energeticos.html">Energeticos</a></li>
-						<li><a href="Proteinas.html">Proteínas</a></li>
-						<li><a href="VitaminasMinerales.html">Vitaminas y Minerales</a></li>
+						<li><a href="ControlPeso.php">Control de Peso</a></li>
+						<li><a href="Energeticos.php">Energeticos</a></li>
+						<li><a href="Proteinas.php">Proteínas</a></li>
+						<li><a href="VitaminasMinerales.php">Vitaminas y Minerales</a></li>
 					</ul>
 				 </div><!-- /.navbar-collapse -->
 			</nav>
 		</div>
 		<div class="w3l_banner_nav_right">
-			<div class="w3l_banner_nav_right_bannerEnergeticos w3l_banner_nav_right_banner_pet">
-				<h4>Tus productos enérgeticos favoritos</h4>
-				<br><br><br><br><br><br><br><br><br><br><br>
-				<a href="single.html">Comprar ahora</a>
+			<div class="w3l_banner_nav_right_bannerControlPeso w3l_banner_nav_right_banner_pet">
+				
+				
+				<a href="#">Comprar Ahora</a>
 			</div>
 			<div class="w3ls_w3l_banner_nav_right_grid w3ls_w3l_banner_nav_right_grid_sub">
-				<h3 class="w3l_fruit">Productos Energéticos</h3>
+				<h3 class="w3l_fruit">Control Peso</h3>
 				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
 					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
 						<div class="hover14 column">
@@ -177,8 +177,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<figure>
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
-											<a href="single.html"><img src="images/Productos/Energeticos/226ers-energy-red-fruits-1kg.jpg" alt=" " class="img-responsive" /></a>
-											<p>226ers energy red fruits (1 kg)</p><br>
+											<a href="#"><img src="images/Productos/ControlPeso/bodyathlon-l-carnitine-3000-limon-flavour-20-vials-x-10ml.jpg" alt=" " class="img-responsive" /></a>
+											<p>bodyathlon carnitine 3000 limon flavour 20 unidades 10ml</p>
 											<h4>$8.00 <span>$10.00</span></h4>
 										</div>
 										<div class="snipcart-details">
@@ -187,7 +187,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													<input type="hidden" name="cmd" value="_cart" />
 													<input type="hidden" name="add" value="1" />
 													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="226ers energy red fruits" />
+													<input type="hidden" name="item_name" value="bodyathlon carnitine 3000 limon flavour" />
 													<input type="hidden" name="amount" value="8.00" />
 													<input type="hidden" name="discount_amount" value="1.00" />
 													<input type="hidden" name="currency_code" value="USD" />
@@ -213,8 +213,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<figure>
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
-											<a href="single.html"><img src="images/Productos/Energeticos/chimpanzee-soluble-bucket-limon-600gr.jpg" alt=" " class="img-responsive" /></a>
-											<p>Chimpanzee soluble bucket limon (600gr)</p>
+											<a href="#"><img src="images/Productos/ControlPeso/nutrisport-chitosan-48-unidades.jpg" alt=" " class="img-responsive" /></a>
+											<p>nutrisport chitosan 48 unidades</p>
 											<h4>$5.00 <span>$6.00</span></h4>
 										</div>
 										<div class="snipcart-details">
@@ -223,7 +223,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													<input type="hidden" name="cmd" value="_cart" />
 													<input type="hidden" name="add" value="1" />
 													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="Chimpanzee soluble bucket limon" />
+													<input type="hidden" name="item_name" value="nutrisport chitosan" />
 													<input type="hidden" name="amount" value="5.00" />
 													<input type="hidden" name="discount_amount" value="1.00" />
 													<input type="hidden" name="currency_code" value="USD" />
@@ -249,8 +249,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<figure>
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
-											<a href="single.html"><img src="images/Productos/Energeticos/nutrisport-stimulred-300-12-unidades.jpg" alt=" " class="img-responsive" /></a>
-											<p>Nutrisport stimulred 300 (12 unidades)</p>
+											<a href="#"><img src="images/Productos/ControlPeso/nutrisport-colina-inositol-plus-ygreen-tea-120-unidades.jpg" alt=" " class="img-responsive" /></a>
+											<p>nutrisport colina inositol plus green tea 120 unidades</p>
 											<h4>$9.00 <span>$11.00</span></h4>
 										</div>
 										<div class="snipcart-details">
@@ -259,7 +259,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													<input type="hidden" name="cmd" value="_cart" />
 													<input type="hidden" name="add" value="1" />
 													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="Nutrisport stimulred 300" />
+													<input type="hidden" name="item_name" value="nutrisport colina inositol plus green tea" />
 													<input type="hidden" name="amount" value="9.00" />
 													<input type="hidden" name="discount_amount" value="1.00" />
 													<input type="hidden" name="currency_code" value="USD" />
@@ -285,8 +285,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<figure>
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
-											<a href="single.html"><img src="images/Productos/Energeticos/nutrisport-stimulred-bebida-exotic-24-unidades.jpg" alt=" " class="img-responsive" /></a>
-											<p>Nutrisport stimulred bebida exotic (24 unidades)</p>
+											<a href="#"><img src="images/Productos/ControlPeso/nutrisport-fit-meal-chocolate-260gr.jpg" alt=" " class="img-responsive" /></a>
+											<p>nutrisport fit meal chocolate 260gr</p>
 											<h4>$15.00 <span>$18.00</span></h4>
 										</div>
 										<div class="snipcart-details">
@@ -295,7 +295,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													<input type="hidden" name="cmd" value="_cart" />
 													<input type="hidden" name="add" value="1" />
 													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="Nutrisport stimulred bebida exotic" />
+													<input type="hidden" name="item_name" value="nutrisport fit meal chocolate" />
 													<input type="hidden" name="amount" value="15.00" />
 													<input type="hidden" name="discount_amount" value="1.00" />
 													<input type="hidden" name="currency_code" value="USD" />
@@ -324,8 +324,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<figure>
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
-											<a href="single.html"><img src="images/Productos/Energeticos/weider-victory-endurance-all-day-energy-90-capsulas.jpg" alt=" " class="img-responsive" /></a>
-											<p>Weider victory endurance all day energy (90 capsulas)</p>
+											<a href="#"><img src="images/Productos/ControlPeso/nutrisport-fit-meal-vegetable-275gr.jpg" alt=" " class="img-responsive" /></a>
+											<p>nutrisport fit meal vegetable 275gr</p>
 											<h4>$8.00 <span>$10.00</span></h4>
 										</div>
 										<div class="snipcart-details">
@@ -334,7 +334,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													<input type="hidden" name="cmd" value="_cart" />
 													<input type="hidden" name="add" value="1" />
 													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="Weider victory endurance all day energy" />
+													<input type="hidden" name="item_name" value="nutrisport fit meal vegetable" />
 													<input type="hidden" name="amount" value="8.00" />
 													<input type="hidden" name="discount_amount" value="1.00" />
 													<input type="hidden" name="currency_code" value="USD" />
@@ -350,7 +350,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						</div>
 					</div>
-
 					<div class="clearfix"> </div>
 				</div>
 				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
@@ -368,24 +367,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-4 w3_footer_grid">
 				<h3>Información</h3>
 				<ul class="w3_footer_grid_list">
-					<li><a href="about.html">Sobre nosotros</a></li>
+					<li><a href="about.php">Sobre nosotros</a></li>
 				</ul>
 			</div>
 			<div class="col-md-4 w3_footer_grid">
 				<h3>Politicas del sitio</h3>
 				<ul class="w3_footer_grid_list">
-					<li><a href="privacy.html">Politicas de privacidad</a></li>
-					<li><a href="privacy.html">Equipo de trabajo</a></li>
+					<li><a href="privacy.php">Politicas de privacidad</a></li>
+					<li><a href="privacy.php">Equipo de trabajo</a></li>
 				</ul>
 			</div>
 			<div class="col-md-4 w3_footer_grid">
 				<h3>Que podes encontrar en la tienda</h3>
 				<ul class="w3_footer_grid_list">
-					<li><a href="pet.html">Proteinas</a></li>
-					<li><a href="frozen.html">Vitaminas y minerales</a></li>
-					<li><a href="kitchen.html">Productos para control de peso</a></li>
-					<li><a href="products.html">...</a></li>
-					<li><a href="household.html">...</a></li>
+					<li><a href="pet.php">Proteinas</a></li>
+					<li><a href="frozen.php">Vitaminas y minerales</a></li>
+					<li><a href="kitchen.php">Productos para control de peso</a></li>
+					<li><a href="products.php">...</a></li>
+					<li><a href="household.php">...</a></li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>

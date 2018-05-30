@@ -40,7 +40,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- header -->
 	<div class="agileits_header">
 		<div class="w3l_offers">
-			<a href="products.html">Ofertas especiales!</a>
+			<a href="index.php">Ofertas especiales!</a>
 		</div>
 		<div class="w3l_search">
 			<form action="#" method="post">
@@ -77,7 +77,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</ul>
 		</div>
 		<div class="w3l_header_right1">
-			<h2><a href="mail.html">Contáctenos</a></h2>
+			<h2><a href="mail.php">Contáctenos</a></h2>
 		</div>
 		<div class="clearfix"> </div>
 	</div>
@@ -128,25 +128,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			   <!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav nav_1">
-						<li><a href="AumentoMasa.html">Aumento de Masa</a></li><!--Branded Foods-->
-						<li><a href="Barritas.html">Barritas</a></li><!-- Households-->
+						<li><a href="AumentoMasa.php">Aumento de Masa</a></li><!--Branded Foods-->
+						<li><a href="Barritas.php">Barritas</a></li><!-- Households-->
 						<li class="dropdown mega-dropdown active">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Accesorios de Entrenamiento<span class="caret"></span></a><!--Veggies & Fruits-->			
 							<div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
 								<div class="w3ls_vegetables">
 									<ul>	
-										<li><a href="EntrenamientoAbdominal.html">Entrenamiento Abdominal</a></li>
-										<li><a href="BandasElasticas.html">Bandas Elasticas</a></li>
-										<li><a href="ColchonetasEsterillas.html">Colchonetas - Esterillas</a></li>
-										<li><a href="Fitballs.html">Fitballs</a></li>
+										<li><a href="EntrenamientoAbdominal.php">Entrenamiento Abdominal</a></li>
+										<li><a href="BandasElasticas.php">Bandas Elasticas</a></li>
+										<li><a href="ColchonetasEsterillas.php">Colchonetas - Esterillas</a></li>
+										<li><a href="Fitballs.php">Fitballs</a></li>
 									</ul>
 								</div>                  
 							</div>				
 						</li>
-						<li><a href="ControlPeso.html">Control de Peso</a></li>
-						<li><a href="Energeticos.html">Energeticos</a></li>
-						<li><a href="Proteinas.html">Proteínas</a></li>
-						<li><a href="VitaminasMinerales.html">Vitaminas y Minerales</a></li>
+						<li><a href="ControlPeso.php">Control de Peso</a></li>
+						<li><a href="Energeticos.php">Energeticos</a></li>
+						<li><a href="Proteinas.php">Proteínas</a></li>
+						<li><a href="VitaminasMinerales.php">Vitaminas y Minerales</a></li>
 					</ul>
 				 </div><!-- /.navbar-collapse -->
 			</nav>
@@ -158,7 +158,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li>
 							<div class="w3l_banner_nav_right_banner">
 								<div class="more">
-									<a href="Proteinas.html" class="button--saqui button--round-l button--text-thick" data-text="Ver ahora">Ver ahora</a>
+									<a href="Proteinas.php" class="button--saqui button--round-l button--text-thick" data-text="Ver ahora">Ver ahora</a>
 								</div>
 							</div>
 						</li>
@@ -166,7 +166,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="w3l_banner_nav_right_banner1">
 								<!--<h3>Make your <span>food</span> with Spicy.</h3>-->
 								<div class="more">
-									<a href="VitaminasMinerales.html" class="button--saqui button--round-l button--text-thick" data-text="Ver ahora">Ver ahora</a>
+									<a href="VitaminasMinerales.php" class="button--saqui button--round-l button--text-thick" data-text="Ver ahora">Ver ahora</a>
 								</div>
 							</div>
 						</li>
@@ -174,7 +174,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="w3l_banner_nav_right_banner2">
 								<h3><i>50%</i>de descuento</h3>
 								<div class="more">
-									<a href="Fitballs.html" class="button--saqui button--round-l button--text-thick" data-text="Ver ahora ">Ver ahora</a>
+									<a href="Fitballs.php" class="button--saqui button--round-l button--text-thick" data-text="Ver ahora ">Ver ahora</a>
 								</div>
 							</div>
 						</li>
@@ -286,14 +286,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-6 w3_footer_grid">
 				<h3>Información</h3>
 				<ul class="w3_footer_grid_list">
-					<li><a href="about.html">Sobre nosotros</a></li>
+					<li><a href="about.php">Sobre nosotros</a></li>
 				</ul>
 			</div>
 			<div class="col-md-6 w3_footer_grid">
 				<h3>Politicas del sitio</h3>
 				<ul class="w3_footer_grid_list">
-					<li><a href="privacy.html">Politicas de privacidad</a></li>
-					<li><a href="privacy.html">Equipo de trabajo</a></li>
+					<li><a href="privacy.php">Politicas de privacidad</a></li>
+					<li><a href="privacy.php">Equipo de trabajo</a></li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>

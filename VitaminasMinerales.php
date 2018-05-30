@@ -14,8 +14,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- font-awesome icons -->
-<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /> 
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
 <!-- //font-awesome icons -->
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
@@ -40,7 +40,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- header -->
 	<div class="agileits_header">
 		<div class="w3l_offers">
-			<a href="products.html">Ofertas especiales!</a>
+			<a href="index.php">Ofertas especiales!</a>
 		</div>
 		<div class="w3l_search">
 			<form action="#" method="post">
@@ -73,7 +73,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</ul>
 		</div>
 		<div class="w3l_header_right1">
-			<h2><a href="mail.html">Contáctenos</a></h2>
+			<h2><a href="mail.php">Contáctenos</a></h2>
 		</div>
 		<div class="clearfix"> </div>
 	</div>
@@ -113,8 +113,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="products-breadcrumb">
 		<div class="container">
 			<ul>
-				<li><i class="fa fa-home" aria-hidden="true"></i><a href="index.php">Pagina Principal</a><span>|</span></li>
-				<li>Barritas</li>
+				<li><i class="fa fa-home" aria-hidden="true"></i><a href="index.php">Página Principal</a><span>|</span></li>
+				<li>Proteinas</li>
 			</ul>
 		</div>
 	</div>
@@ -135,35 +135,38 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			   <!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav nav_1">
-						<li><a href="AumentoMasa.html">Aumento de Masa</a></li><!--Branded Foods-->
-						<li><a href="Barritas.html">Barritas</a></li><!-- Households-->
+						<li><a href="AumentoMasa.php">Aumento de Masa</a></li><!--Branded Foods-->
+						<li><a href="Barritas.php">Barritas</a></li><!-- Households-->
 						<li class="dropdown mega-dropdown active">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Accesorios de Entrenamiento<span class="caret"></span></a><!--Veggies & Fruits-->			
 							<div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
 								<div class="w3ls_vegetables">
 									<ul>	
-										<li><a href="EntrenamientoAbdominal.html">Entrenamiento Abdominal</a></li>
-										<li><a href="BandasElasticas.html">Bandas Elasticas</a></li>
-										<li><a href="ColchonetasEsterillas.html">Colchonetas - Esterillas</a></li>
-										<li><a href="Fitballs.html">Fitballs</a></li>
+										<li><a href="EntrenamientoAbdominal.php">Entrenamiento Abdominal</a></li>
+										<li><a href="BandasElasticas.php">Bandas Elasticas</a></li>
+										<li><a href="ColchonetasEsterillas.php">Colchonetas - Esterillas</a></li>
+										<li><a href="Fitballs.php">Fitballs</a></li>
 									</ul>
 								</div>                  
 							</div>				
 						</li>
-						<li><a href="ControlPeso.html">Control de Peso</a></li>
-						<li><a href="Energeticos.html">Energeticos</a></li>
-						<li><a href="Proteinas.html">Proteínas</a></li>
-						<li><a href="VitaminasMinerales.html">Vitaminas y Minerales</a></li>
+						<li><a href="ControlPeso.php">Control de Peso</a></li>
+						<li><a href="Energeticos.php">Energeticos</a></li>
+						<li><a href="Proteinas.php">Proteínas</a></li>
+						<li><a href="VitaminasMinerales.php">Vitaminas y Minerales</a></li>
 					</ul>
 				 </div><!-- /.navbar-collapse -->
 			</nav>
 		</div>
 		<div class="w3l_banner_nav_right">
-			<div class="w3l_banner_nav_right_bannerBarritas w3l_banner_nav_right_banner_pet">
-				<a href="single.html">Comprar Ahora</a>
+		<!--imagen-->
+			<div class="w3l_banner_nav_right_bannerVitaminas w3l_banner_nav_right_banner_pet">
+				<h4>Tus vitaminas favoritas</h4>
+				<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				<a href="#">Comprar ahora</a>
 			</div>
 			<div class="w3ls_w3l_banner_nav_right_grid w3ls_w3l_banner_nav_right_grid_sub">
-				<h3 class="w3l_fruit">Barritas</h3>
+				<h3 class="w3l_fruit">Vitaminas y Minerales</h3>
 				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
 					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
 						<div class="hover14 column">
@@ -175,17 +178,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<figure>
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
-											<a href="single.html"><img src="images/Productos/Barritas/nutrisport-bars-energetic-24-unidades.jpg" alt=" " class="img-responsive" /></a>
-											<p>nutrisport bars energetic 24 unidades</p>
+											<a href="#"><img src="images/Productos/VitaminasMinerales/born-fruits-semi-dehydrated-pina-caja-8-unidades.jpg" width="280px" height="70px" alt=" " class="img-responsive" /></a>
+											<p>Born fruits semi dehydrated piña (8 unidades)</p>
 											<h4>$8.00 <span>$10.00</span></h4>
 										</div>
+										<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+												<input type="hidden" name="cmd" value="_s-xclick">
+												<input type="hidden" name="hosted_button_id" value="PD4JPWRBYUPJU">
+												<input type="image" src="images/addcarrito.png" width="75%" height="30%" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"  >
+												<img alt="" border="0" img=""src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1"><!--PD4JPWRBYUPJU-->
+										</form>
 										<div class="snipcart-details">
 											<form action="#" method="post">
 												<fieldset>
 													<input type="hidden" name="cmd" value="_cart" />
 													<input type="hidden" name="add" value="1" />
 													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="nutrisport bars energetic" />
+													<input type="hidden" name="item_name" value="Born fruits semi dehydrated piña" />
 													<input type="hidden" name="amount" value="8.00" />
 													<input type="hidden" name="discount_amount" value="1.00" />
 													<input type="hidden" name="currency_code" value="USD" />
@@ -211,9 +220,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<figure>
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
-											<a href="single.html"><img src="images/Productos/Barritas/nutrisport-megapower-peach-bar-12-unidades.jpg" alt=" " class="img-responsive" /></a>
-											<p>nutrisport megapower peach bar 12 unidades</p>
+											<a href="#"><img src="images/Productos/VitaminasMinerales/born-fruits-semi-dehydrated-platano-caja-8-unidades.jpg" alt=" " class="img-responsive" /></a>
+											<p>Born fruits semi dehydrated platano (8 unidades)</p>
 											<h4>$5.00 <span>$6.00</span></h4>
+
+											<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+												<input type="hidden" name="cmd" value="_s-xclick">
+												<input type="hidden" name="hosted_button_id" value="82F63V3DQSU2A">
+												<input type="image"src="images/addcarrito.png" width="75%" height="30%" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+												<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+											</form>
+
 										</div>
 										<div class="snipcart-details">
 											<form action="#" method="post">
@@ -221,7 +238,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													<input type="hidden" name="cmd" value="_cart" />
 													<input type="hidden" name="add" value="1" />
 													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="nutrisport megapower peach bar" />
+													<input type="hidden" name="item_name" value="Born fruits semi dehydrated platano" />
 													<input type="hidden" name="amount" value="5.00" />
 													<input type="hidden" name="discount_amount" value="1.00" />
 													<input type="hidden" name="currency_code" value="USD" />
@@ -247,17 +264,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<figure>
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
-											<a href="single.html"><img src="images/Productos/Barritas/nutrisport-snack-outdoor-bar-20-units.jpg" alt=" " class="img-responsive" /></a>
-											<p>nutrisport snack outdoor bar 20 unidades</p>
-											<h4>$9.00 <span>$11.00</span></h4>
+											<a href="#"><img src="images/Productos/VitaminasMinerales/nutrisport-omega-3-caja-100-unidades.jpg" alt=" " class="img-responsive" /></a>
+											<p>Nutrisport omega 3 (100 unidades)</p><br>
+											<h4>$9.00 <span>$11.00</span></h4><br><br>
 										</div>
+										<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+											<input type="hidden" name="cmd" value="_s-xclick">
+											<input type="hidden" name="hosted_button_id" value="JBX9RABH9H53E">
+											<input type="image" src="images/addcarrito.png" width="75%" height="30%"border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+											<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+										</form>
+
 										<div class="snipcart-details">
 											<form action="#" method="post">
 												<fieldset>
 													<input type="hidden" name="cmd" value="_cart" />
 													<input type="hidden" name="add" value="1" />
 													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="nutrisport snack outdoor bar" />
+													<input type="hidden" name="item_name" value="Nutrisport omega 3" />
 													<input type="hidden" name="amount" value="9.00" />
 													<input type="hidden" name="discount_amount" value="1.00" />
 													<input type="hidden" name="currency_code" value="USD" />
@@ -283,17 +307,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<figure>
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
-											<a href="single.html"><img src="images/Productos/Barritas/nutrisport-vitamin-chocolate-bar-caja-20-unidades.jpg" alt=" " class="img-responsive" /></a>
-											<p>nutrisport vitamin chocolate bar 20 unidades</p>
-											<h4>$15.00 <span>$18.00</span></h4>
+											<a href="#"><img src="images/Productos/VitaminasMinerales/nutrisport-plus-vital-30-unidades.jpg" alt=" " class="img-responsive" /></a>
+											<p>Nutrisport plus vital (30 unidades)</p><br>
+											<h4>$10.00 <span>$18.00</span></h4><br><br>
 										</div>
+
+										<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+											<input type="hidden" name="cmd" value="_s-xclick">
+											<input type="hidden" name="hosted_button_id" value="FG7F8EF86J2AN">
+											<input type="image" src="images/addcarrito.png" width="75%" height="30%" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+											<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+										</form>
+
+
 										<div class="snipcart-details">
 											<form action="#" method="post">
 												<fieldset>
 													<input type="hidden" name="cmd" value="_cart" />
 													<input type="hidden" name="add" value="1" />
 													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="nutrisport vitamin chocolate bar" />
+													<input type="hidden" name="item_name" value="Nutrisport plus vital" />
 													<input type="hidden" name="amount" value="15.00" />
 													<input type="hidden" name="discount_amount" value="1.00" />
 													<input type="hidden" name="currency_code" value="USD" />
@@ -310,43 +343,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 					</div>
 					<div class="clearfix"> </div>
-				</div>
-				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
-					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
-						<div class="hover14 column">
-						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
-							<div class="agile_top_brand_left_grid_pos">
-								<img src="images/offer.png" alt=" " class="img-responsive" />
-							</div>
-							<div class="agile_top_brand_left_grid1">
-								<figure>
-									<div class="snipcart-item block">
-										<div class="snipcart-thumb">
-											<a href="single.html"><img src="images/Productos/Barritas/powergym-dietbar-naranja-32-unidades.jpg" alt=" " class="img-responsive" /></a>
-											<p>powergym dietbar naranja 32 unidades</p>
-											<h4>$8.00 <span>$10.00</span></h4>
-										</div>
-										<div class="snipcart-details">
-											<form action="#" method="post">
-												<fieldset>
-													<input type="hidden" name="cmd" value="_cart" />
-													<input type="hidden" name="add" value="1" />
-													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="powergym dietbar naranja" />
-													<input type="hidden" name="amount" value="8.00" />
-													<input type="hidden" name="discount_amount" value="1.00" />
-													<input type="hidden" name="currency_code" value="USD" />
-													<input type="hidden" name="return" value=" " />
-													<input type="hidden" name="cancel_return" value=" " />
-													<input type="submit" name="submit" value="Añadir al Carrito" class="button" />
-												</fieldset>
-											</form>
-										</div>
-									</div>
-								</figure>
-							</div>
-						</div>
-						</div>
 					</div>
 					<div class="col-md-3 w3ls_w3l_banner_left">
 						<div class="hover14 column">
@@ -358,18 +354,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<figure>
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
-											<a href="single.html"><img src="images/Productos/Barritas/powergym-recoprotein-bar-display-platano-35gr-x-24-unidades.jpg" alt=" " class="img-responsive" /></a>
-											<p>powergym recoprotein platano (35gr) 24 unidades</p>
-											<h4>$5.00 <span>$8.00</span></h4>
+											<a href="#"><img src="images/Productos/VitaminasMinerales/nutrisport-sport-pack-antioxidant-30-unidades.jpg" alt=" " class="img-responsive" /></a>
+											<p>Nutrisport sport pack antioxidant (30 unidades)</p>
+											<h4>$10.00 <span>$18.00</span></h4>
 										</div>
+
+										<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+											<input type="hidden" name="cmd" value="_s-xclick">
+											<input type="hidden" name="hosted_button_id" value="5URXRBQU7AHQC">
+											<input type="image" src="images/addcarrito.png" width="75%" height="30%" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+											<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+										</form>
+
+
 										<div class="snipcart-details">
 											<form action="#" method="post">
 												<fieldset>
 													<input type="hidden" name="cmd" value="_cart" />
 													<input type="hidden" name="add" value="1" />
 													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="powergym recoprotein platano" />
-													<input type="hidden" name="amount" value="5.00" />
+													<input type="hidden" name="item_name" value="Nutrisport sport pack antioxidant" />
+													<input type="hidden" name="amount" value="15.00" />
 													<input type="hidden" name="discount_amount" value="1.00" />
 													<input type="hidden" name="currency_code" value="USD" />
 													<input type="hidden" name="return" value=" " />
@@ -384,6 +389,143 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						</div>
 					</div>
+
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid_pos">
+								<img src="images/offer.png" alt=" " class="img-responsive" />
+							</div>
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/Productos/VitaminasMinerales/nutrisport-sport-vitamin-10-unidades.jpg" alt=" " class="img-responsive" /></a>
+											<p>Nutrisport sport vitamin (10 unidades)</p>
+											<h4>$16.00 <span>$19.00</span></h4>
+										</div>
+
+										<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+											<input type="hidden" name="cmd" value="_s-xclick">
+											<input type="hidden" name="hosted_button_id" value="ET82R9YY5R9VW">
+											<input type="image" src="images/addcarrito.png" width="75%" height="30%" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+											<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+										</form>
+
+
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="Nutrisport sport vitamin" />
+													<input type="hidden" name="amount" value="15.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Añadir al Carrito" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid_pos">
+								<img src="images/offer.png" alt=" " class="img-responsive" />
+							</div>
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/Productos/VitaminasMinerales/nutrisport-vitamin-b-60-unidades.jpg" alt=" " class="img-responsive" /></a>
+											<p>Nutrisport vitamin B (60 unidades)</p>
+											<h4>$15.00 <span>$17.00</span></h4>
+										</div>
+
+										<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+											<input type="hidden" name="cmd" value="_s-xclick">
+											<input type="hidden" name="hosted_button_id" value="ENTHHJXC5JVZE">
+											<input type="image" src="images/addcarrito.png" width="75%" height="30%" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+											<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+										</form>
+
+
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="Nutrisport vitamin B" />
+													<input type="hidden" name="amount" value="15.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Añadir al Carrito" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>	
+
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid_pos">
+								<img src="images/offer.png" alt=" " class="img-responsive" />
+							</div>
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/Productos/VitaminasMinerales/nutrisport-vitamin-c-y-e-60-unidades.jpg" alt=" " class="img-responsive" /></a>
+											<p>Nutrisport vitamin C y E (60 unidades)</p>
+											<h4>$15.00 <span>$17.00</span></h4>
+										</div>
+										<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+											<input type="hidden" name="cmd" value="_s-xclick">
+											<input type="hidden" name="hosted_button_id" value="P5T79S5FPVQ8L">
+											<input type="image" src="images/addcarrito.png" width="75%" height="30%" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+											<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+										</form>
+
+
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="Nutrisport vitamin C y E" />
+													<input type="hidden" name="amount" value="15.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Añadir al Carrito" class="button" />
+												</fieldset>
+											</form>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						</div>
+					</div>		
 
 					<div class="clearfix"> </div>
 				</div>
@@ -402,24 +544,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-4 w3_footer_grid">
 				<h3>Información</h3>
 				<ul class="w3_footer_grid_list">
-					<li><a href="about.html">Sobre nosotros</a></li>
+					<li><a href="about.php">Sobre nosotros</a></li>
 				</ul>
 			</div>
 			<div class="col-md-4 w3_footer_grid">
 				<h3>Politicas del sitio</h3>
 				<ul class="w3_footer_grid_list">
-					<li><a href="privacy.html">Politicas de privacidad</a></li>
-					<li><a href="privacy.html">Equipo de trabajo</a></li>
+					<li><a href="privacy.php">Politicas de privacidad</a></li>
+					<li><a href="privacy.php">Equipo de trabajo</a></li>
 				</ul>
 			</div>
 			<div class="col-md-4 w3_footer_grid">
 				<h3>Que podes encontrar en la tienda</h3>
 				<ul class="w3_footer_grid_list">
-					<li><a href="pet.html">Proteinas</a></li>
-					<li><a href="frozen.html">Vitaminas y minerales</a></li>
-					<li><a href="kitchen.html">Productos para control de peso</a></li>
-					<li><a href="products.html">...</a></li>
-					<li><a href="household.html">...</a></li>
+					<li><a href="pet.php">Proteinas</a></li>
+					<li><a href="frozen.php">Vitaminas y minerales</a></li>
+					<li><a href="kitchen.php">Productos para control de peso</a></li>
+					<li><a href="products.php">...</a></li>
+					<li><a href="household.php">...</a></li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>

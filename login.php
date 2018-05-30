@@ -33,7 +33,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 	<div class="agileits_header">
 		<div class="w3l_offers">
-			<a href="products.html">Ofertas especiales!</a>
+			<a href="index.php">Ofertas especiales!</a>
 		</div>
 		<div class="w3l_search">
 			<form action="#" method="post">
@@ -66,7 +66,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</ul>
 		</div>
 		<div class="w3l_header_right1">
-			<h2><a href="mail.html">Contáctenos</a></h2>
+			<h2><a href="mail.php">Contáctenos</a></h2>
 		</div>
 		<div class="clearfix"> </div>
 	</div>
@@ -95,9 +95,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="w3ls_logo_products_left1">
 				<ul class="special_items">
 					<!--<li><a href="events.html">Events</a><i>/</i></li>-->
-					<li><a href="about.html">Nosotros</a><i>/</i></li>
-					<li><a href="products.html">Nuevos productos</a><i>/</i></li>
-					<li><a href="services.html">Servicios</a></li>
+					<li><a href="about.php">Nosotros</a><i>/</i></li>
+					<li><a href="products.php">Nuevos productos</a><i>/</i></li>
+					<li><a href="services.php">Servicios</a></li>
 				</ul>
 			</div>
 			<div class="w3ls_logo_products_left1">
@@ -187,24 +187,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-4 w3_footer_grid">
 				<h3>Información</h3>
 				<ul class="w3_footer_grid_list">
-					<li><a href="about.html">Sobre nosotros</a></li>
+					<li><a href="about.php">Sobre nosotros</a></li>
 				</ul>
 			</div>
 			<div class="col-md-4 w3_footer_grid">
 				<h3>Politicas del sitio</h3>
 				<ul class="w3_footer_grid_list">
-					<li><a href="privacy.html">Politicas de privacidad</a></li>
-					<li><a href="privacy.html">Equipo de trabajo</a></li>
+					<li><a href="privacy.php">Politicas de privacidad</a></li>
+					<li><a href="privacy.php">Equipo de trabajo</a></li>
 				</ul>
 			</div>
 			<div class="col-md-4 w3_footer_grid">
 				<h3>Que podes encontrar en la tienda</h3>
 				<ul class="w3_footer_grid_list">
-					<li><a href="pet.html">Proteinas</a></li>
-					<li><a href="frozen.html">Vitaminas y minerales</a></li>
-					<li><a href="kitchen.html">Productos para control de peso</a></li>
-					<li><a href="products.html">...</a></li>
-					<li><a href="household.html">...</a></li>
+					<li><a href="pet.php">Proteinas</a></li>
+					<li><a href="frozen.php">Vitaminas y minerales</a></li>
+					<li><a href="kitchen.php">Productos para control de peso</a></li>
+					<li><a href="products.php">...</a></li>
+					<li><a href="household.php">...</a></li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>
@@ -245,7 +245,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 	if( Username.value=="angelicamrs16@gmail.com" && password1.value=="123"){
 		alert("Bienvenid@ " + Username.value);
-		window.location.href = "file:///C:/ANGELICA/UNA/5AÑO-PRIMER%20SEMESTRE/Aplicaciones%20Globales/Proyecto/index.html";
+		window.location.href = "file:///C:/ANGELICA/UNA/5AÑO-PRIMER%20SEMESTRE/Aplicaciones%20Globales/Proyecto/index.php";
 		return true;
 
 		//alert("Bienvenid@ " + Username.value);

@@ -38,9 +38,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 <body>
 <!-- header -->
-<div class="agileits_header">
+	<div class="agileits_header">
 		<div class="w3l_offers">
-			<a href="products.html">Ofertas especiales!</a>
+			<a href="index.php">Ofertas especiales!</a>
 		</div>
 		<div class="w3l_search">
 			<form action="#" method="post">
@@ -73,7 +73,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</ul>
 		</div>
 		<div class="w3l_header_right1">
-			<h2><a href="mail.html">Contáctenos</a></h2>
+			<h2><a href="mail.php">Contáctenos</a></h2>
 		</div>
 		<div class="clearfix"> </div>
 	</div>
@@ -114,7 +114,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<ul>
 				<li><i class="fa fa-home" aria-hidden="true"></i><a href="index.php">Pagina Principal</a><span>|</span></li>
-				<li>Aumento Muscular</li>
+				<li>Fitballs</li>
 			</ul>
 		</div>
 	</div>
@@ -135,37 +135,37 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			   <!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav nav_1">
-						<li><a href="AumentoMasa.html">Aumento de Masa</a></li><!--Branded Foods-->
-						<li><a href="Barritas.html">Barritas</a></li><!-- Households-->
+						<li><a href="AumentoMasa.php">Aumento de Masa</a></li><!--Branded Foods-->
+						<li><a href="Barritas.php">Barritas</a></li><!-- Households-->
 						<li class="dropdown mega-dropdown active">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Accesorios de Entrenamiento<span class="caret"></span></a><!--Veggies & Fruits-->			
 							<div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
 								<div class="w3ls_vegetables">
 									<ul>	
-										<li><a href="EntrenamientoAbdominal.html">Entrenamiento Abdominal</a></li>
-										<li><a href="BandasElasticas.html">Bandas Elasticas</a></li>
-										<li><a href="ColchonetasEsterillas.html">Colchonetas - Esterillas</a></li>
-										<li><a href="Fitballs.html">Fitballs</a></li>
+										<li><a href="EntrenamientoAbdominal.php">Entrenamiento Abdominal</a></li>
+										<li><a href="BandasElasticas.php">Bandas Elasticas</a></li>
+										<li><a href="ColchonetasEsterillas.php">Colchonetas - Esterillas</a></li>
+										<li><a href="Fitballs.php">Fitballs</a></li>
 									</ul>
 								</div>                  
 							</div>				
 						</li>
-						<li><a href="ControlPeso.html">Control de Peso</a></li>
-						<li><a href="Energeticos.html">Energeticos</a></li>
-						<li><a href="Proteinas.html">Proteínas</a></li>
-						<li><a href="VitaminasMinerales.html">Vitaminas y Minerales</a></li>
+						<li><a href="ControlPeso.php">Control de Peso</a></li>
+						<li><a href="Energeticos.php">Energeticos</a></li>
+						<li><a href="Proteinas.php">Proteínas</a></li>
+						<li><a href="VitaminasMinerales.php">Vitaminas y Minerales</a></li>
 					</ul>
 				 </div><!-- /.navbar-collapse -->
 			</nav>
 		</div>
 		<div class="w3l_banner_nav_right">
 			<div class="w3l_banner_nav_right_banner9 w3l_banner_nav_right_banner_pet">
-				<h4>Your Pet Favourite Food</h4>
-				<p>Sint occaecat cupidatat non proident</p>
-				<a href="single.html">Shop Now</a>
+				<h4></h4>
+				<p></p>
+				<a href="#">Comprar ahora</a>
 			</div>
 			<div class="w3ls_w3l_banner_nav_right_grid w3ls_w3l_banner_nav_right_grid_sub">
-				<h3 class="w3l_fruit">Aumento Masa Muscular</h3>
+				<h3 class="w3l_fruit">Fitballs</h3>
 				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
 					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
 						<div class="hover14 column">
@@ -177,19 +177,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<figure>
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
-											<a href="single.html"><img src="images/Productos/AumentoMasa/nutrisport-bodyplus-fresa-850gr.jpg" alt=" " class="img-responsive" /></a>
-											<p>nutrisport Fresa (850gr)</p>
-											<h4>$20.00 <span>$25.00</span></h4>
-										</div>
+											<a href="#"><img src="images/Productos/accesoriosEntrenamiento/Fitballs/Fitball-55cm-rojo.jpg" alt=" " class="img-responsive" /></a>
+											<p>Fitball GS </p>
+											<h4>$7<span>$8</span></h4>									</div>
 										<div class="snipcart-details">
 											<form action="#" method="post">
 												<fieldset>
 													<input type="hidden" name="cmd" value="_cart" />
 													<input type="hidden" name="add" value="1" />
 													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="nutrisport Fresa" />
+													<input type="hidden" name="item_name" value="Fitball GS" />
 													<input type="hidden" name="amount" value="8.00" />
-													<input type="hidden" name="discount_amount" value="5.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
 													<input type="hidden" name="currency_code" value="USD" />
 													<input type="hidden" name="return" value=" " />
 													<input type="hidden" name="cancel_return" value=" " />
@@ -213,9 +212,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<figure>
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
-											<a href="single.html"><img src="images/Productos/AumentoMasa/nutrisport-bodyplus-yogurt-y-platano-1.8kg.jpg" alt=" " class="img-responsive" /></a>
-											<p>Nutrisport Bodyplus Yogurt y Platano(1.8kg)</p>
-											<h4>$37<span>$40</span></h4>
+											<a href="#"><img src="images/Productos/accesoriosEntrenamiento/Fitballs/Technogym-Wellness-Ball-Medium.jpg" alt=" " class="img-responsive" /></a>
+											<p>Fitball TechnoGym</p>
+											<h4>$8 <span>$9</span></h4>
 										</div>
 										<div class="snipcart-details">
 											<form action="#" method="post">
@@ -223,9 +222,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													<input type="hidden" name="cmd" value="_cart" />
 													<input type="hidden" name="add" value="1" />
 													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="Nutrisport Bodyplus Yogurt y Platano" />
-													<input type="hidden" name="amount" value="37.95" />
-													<input type="hidden" name="discount_amount" value="3.00" />
+													<input type="hidden" name="item_name" value="Fitball TechnoGym" />
+													<input type="hidden" name="amount" value="5.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
 													<input type="hidden" name="currency_code" value="USD" />
 													<input type="hidden" name="return" value=" " />
 													<input type="hidden" name="cancel_return" value=" " />
@@ -249,9 +248,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<figure>
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
-											<a href="single.html"><img src="images/Productos/AumentoMasa/nutrisport-megapower-caja-chocoalte-2.5kg.jpg" alt=" " class="img-responsive" /></a>
-											<p>Nutrisport Megapower Chocolate (2.5kg)</p>
-											<h4>$30.00 <span>$36.00</span></h4>
+											<a href="#"><img src="images/Productos/accesoriosEntrenamiento/Fitballs/Tunturi-Gymball65cmBlue.jpg" alt=" " class="img-responsive" /></a>
+											<p>Fitball TechnoGym</p>
+											<h4>$8 <span>$9</span></h4>
 										</div>
 										<div class="snipcart-details">
 											<form action="#" method="post">
@@ -259,119 +258,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													<input type="hidden" name="cmd" value="_cart" />
 													<input type="hidden" name="add" value="1" />
 													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="Nutrisport Megapower Chocolate" />
+													<input type="hidden" name="item_name" value="Fitball TechnoGym" />
 													<input type="hidden" name="amount" value="9.00" />
-													<input type="hidden" name="discount_amount" value="6.00" />
-													<input type="hidden" name="currency_code" value="USD" />
-													<input type="hidden" name="return" value=" " />
-													<input type="hidden" name="cancel_return" value=" " />
-													<input type="submit" name="submit" value="Añadir al Carrito" class="button" />
-												</fieldset>
-											</form>
-										</div>
-									</div>
-								</figure>
-							</div>
-						</div>
-						</div>
-					</div>
-					<div class="col-md-3 w3ls_w3l_banner_left">
-						<div class="hover14 column">
-						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
-							<div class="agile_top_brand_left_grid_pos">
-								<img src="images/offer.png" alt=" " class="img-responsive" />
-							</div>
-							<div class="agile_top_brand_left_grid1">
-								<figure>
-									<div class="snipcart-item block">
-										<div class="snipcart-thumb">
-											<a href="single.html"><img src="images/Productos/AumentoMasa/nutrisport-megapower-chocolate-816gr.jpg" alt=" " class="img-responsive" /></a>
-											<p>Nutrisport Megapower Chocolate (816gr)</p>
-											<h4>$26.00 <span>$30.00</span></h4>
-										</div>
-										<div class="snipcart-details">
-											<form action="#" method="post">
-												<fieldset>
-													<input type="hidden" name="cmd" value="_cart" />
-													<input type="hidden" name="add" value="1" />
-													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="Nutrisport Megapower Chocolate" />
-													<input type="hidden" name="amount" value="15.00" />
-													<input type="hidden" name="discount_amount" value="4.00" />
-													<input type="hidden" name="currency_code" value="USD" />
-													<input type="hidden" name="return" value=" " />
-													<input type="hidden" name="cancel_return" value=" " />
-													<input type="submit" name="submit" value="Añadir al Carrito" class="button" />
-												</fieldset>
-											</form>
-										</div>
-									</div>
-								</figure>
-							</div>
-						</div>
-						</div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
-					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
-						<div class="hover14 column">
-						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
-							<div class="agile_top_brand_left_grid_pos">
-								<img src="images/offer.png" alt=" " class="img-responsive" />
-							</div>
-							<div class="agile_top_brand_left_grid1">
-								<figure>
-									<div class="snipcart-item block">
-										<div class="snipcart-thumb">
-											<a href="single.html"><img src="images/Productos/AumentoMasa/nutrisport-megapower-fresa-816gr.jpg" alt=" " class="img-responsive" /></a>
-											<p>Nutrisport Megapower Fresa (816gr)</p>
-											<h4>$26.00 <span>$30.00</span></h4>
-										</div>
-										<div class="snipcart-details">
-											<form action="#" method="post">
-												<fieldset>
-													<input type="hidden" name="cmd" value="_cart" />
-													<input type="hidden" name="add" value="1" />
-													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="Nutrisport Megapower Fresa" />
-													<input type="hidden" name="amount" value="8.00" />
-													<input type="hidden" name="discount_amount" value="4.00" />
-													<input type="hidden" name="currency_code" value="USD" />
-													<input type="hidden" name="return" value=" " />
-													<input type="hidden" name="cancel_return" value=" " />
-													<input type="submit" name="submit" value="Añadir al Carrito" class="button" />
-												</fieldset>
-											</form>
-										</div>
-									</div>
-								</figure>
-							</div>
-						</div>
-						</div>
-					</div>
-					<div class="col-md-3 w3ls_w3l_banner_left">
-						<div class="hover14 column">
-						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
-							<div class="agile_top_brand_left_grid_pos">
-								<img src="images/offer.png" alt=" " class="img-responsive" />
-							</div>
-							<div class="agile_top_brand_left_grid1">
-								<figure>
-									<div class="snipcart-item block">
-										<div class="snipcart-thumb">
-											<a href="single.html"><img src="images/Productos/AumentoMasa/nutrisport-megapower-vanilla-816gr.jpg" alt=" " class="img-responsive" /></a>
-											<p>Nutrisport Megapower Vanilla (816gr)</p>
-											<h4>$26.00 <span>$30.00</span></h4>
-										</div>
-										<div class="snipcart-details">
-											<form action="#" method="post">
-												<fieldset>
-													<input type="hidden" name="cmd" value="_cart" />
-													<input type="hidden" name="add" value="1" />
-													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="Nutrisport Megapower Vanilla" />
-													<input type="hidden" name="amount" value="4.00" />
 													<input type="hidden" name="discount_amount" value="1.00" />
 													<input type="hidden" name="currency_code" value="USD" />
 													<input type="hidden" name="return" value=" " />
@@ -386,8 +274,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						</div>
 					</div>
-
-					<div class="clearfix"> </div>
+										<div class="clearfix"> </div>
 				</div>
 				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
 					
@@ -397,31 +284,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<div class="clearfix"></div>
 	</div>
-<!-- //banner -->
+	
+	
+	<!-- //banner -->
 <!-- footer -->
 	<div class="footer">
 		<div class="container">
 			<div class="col-md-4 w3_footer_grid">
 				<h3>Información</h3>
 				<ul class="w3_footer_grid_list">
-					<li><a href="about.html">Sobre nosotros</a></li>
+					<li><a href="about.php">Sobre nosotros</a></li>
 				</ul>
 			</div>
 			<div class="col-md-4 w3_footer_grid">
 				<h3>Politicas del sitio</h3>
 				<ul class="w3_footer_grid_list">
-					<li><a href="privacy.html">Politicas de privacidad</a></li>
-					<li><a href="privacy.html">Equipo de trabajo</a></li>
+					<li><a href="privacy.php">Politicas de privacidad</a></li>
+					<li><a href="privacy.php">Equipo de trabajo</a></li>
 				</ul>
 			</div>
 			<div class="col-md-4 w3_footer_grid">
 				<h3>Que podes encontrar en la tienda</h3>
 				<ul class="w3_footer_grid_list">
-					<li><a href="pet.html">Proteinas</a></li>
-					<li><a href="frozen.html">Vitaminas y minerales</a></li>
-					<li><a href="kitchen.html">Productos para control de peso</a></li>
-					<li><a href="products.html">...</a></li>
-					<li><a href="household.html">...</a></li>
+					<li><a href="pet.php">Proteinas</a></li>
+					<li><a href="frozen.php">Vitaminas y minerales</a></li>
+					<li><a href="kitchen.php">Productos para control de peso</a></li>
+					<li><a href="products.php">...</a></li>
+					<li><a href="household.php">...</a></li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>

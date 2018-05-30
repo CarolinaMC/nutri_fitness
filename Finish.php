@@ -1,13 +1,7 @@
-<!--
-author: W3layouts
-author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html>
 <head>
-<title>Nutri-fitness</title>
+<title>Nutri-Fitness</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -44,7 +38,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- header -->
 	<div class="agileits_header">
 		<div class="w3l_offers">
-			<a href="products.html">Ofertas especiales!</a>
+			<a href="index.php">Ofertas especiales!</a>
 		</div>
 		<div class="w3l_search">
 			<form action="#" method="post">
@@ -77,7 +71,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</ul>
 		</div>
 		<div class="w3l_header_right1">
-			<h2><a href="mail.html">Contáctenos</a></h2>
+			<h2><a href="mail.php">Contáctenos</a></h2>
 		</div>
 		<div class="clearfix"> </div>
 	</div>
@@ -117,52 +111,62 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="products-breadcrumb">
 		<div class="container">
 			<ul>
-				<li><i class="fa fa-home" aria-hidden="true"></i><a href="index.php">Pagina Principal</a><span>|</span></li>
-				<li>Sobre nosotros</li>
+				<li><i class="fa fa-home" aria-hidden="true"></i><a href="index.php">Página principal</a><span>|</span></li>
+				<li>Se realizó el pago</li>
 			</ul>
 		</div>
 	</div>
 <!-- //products-breadcrumb -->
-
-<!-- team -->
-	<div class="team">
-		<div class="container">
-			<h3>Conoce nuestro equipo</h3>
-			<div class="agileits_team_grids">
-				<div class="col-md-4 agileits_team_grid">
-					<h4>Carolina Mora Cordero</h4>
-					<p>Desarrollador</p>
-					<ul class="agileits_social_icons agileits_social_icons_team">
-						<li><a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="google"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+<!-- banner -->
+	<div class="banner">
+		
+<!-- mail -->
+		<div class="mail">
+			<h3>Redacte el mensaje</h3>
+			<div class="agileinfo_mail_grids">
+				<div class="col-md-4 agileinfo_mail_grid_left">
+					<ul>
+						<li><i class="fa fa-home" aria-hidden="true"></i></li>
+						<li>Dirección<span>Heredia, Costa Rica</span></li>
+					</ul>
+					<ul>
+						<li><i class="fa fa-envelope" aria-hidden="true"></i></li>
+						<li>email<span><a href="mailto:info@example.com">nutrifitness@gmail.com</a></span></li>
+					</ul>
+					<ul>
+						<li><i class="fa fa-phone" aria-hidden="true"></i></li>
+						<li>Contacteanos al <span>(+506) 2234 6567</span></li>
 					</ul>
 				</div>
-				<div class="col-md-4 agileits_team_grid">
-					
-					<h4>Lisseth Bolaños</h4>
-					<p>Desarrollador</p>
-					<ul class="agileits_social_icons agileits_social_icons_team">
-						<li><a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="google"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-					</ul>
-				</div>
-				<div class="col-md-4 agileits_team_grid">
-					
-					<h4>Angelica Rojas</h4>
-					<p>Desarrollador</p>
-					<ul class="agileits_social_icons agileits_social_icons_team">
-						<li><a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="google"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-					</ul>
+				<div class="col-md-8 agileinfo_mail_grid_right">
+					<form action="#" method="post">
+						<div class="col-md-6 wthree_contact_left_grid">
+							<input type="text" name="Name" value="Nombre*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name*';}" required="">
+							<input type="email" name="Email" value="Email*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email*';}" required="">
+						</div>
+						<div class="col-md-6 wthree_contact_left_grid">
+							<input type="text" name="Telephone" value="Teléfono*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Telephone*';}" required="">
+							<input type="text" name="Subject" value="Asunto*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject*';}" required="">
+						</div>
+						<div class="clearfix"> </div>
+						<textarea  name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Redacte aquí la consulta...';}" required="">Mensaje</textarea>
+						<input type="submit" value="Enviar">
+						<input type="reset" value="Borrar">
+					</form>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 		</div>
+<!-- //mail -->
+		</div>
+		<div class="clearfix"></div>
 	</div>
-<!-- //team -->
+<!-- //banner -->
+<!-- map -->
+	<div class="map">
+		<iframe src="https://www.google.com/maps/embed/v1/search?q=Heredia,+Costa+Rica&key=AIzaSyDKvcUtbZ2ZI9THv0Sufy84CC5f9c7S30Y" style="border:0"> </iframe>
+	</div>
+<!-- //map -->
 <!-- newsletter -->
 	<div class="newsletter">
 		<div class="container">
@@ -185,14 +189,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-6 w3_footer_grid">
 				<h3>Información</h3>
 				<ul class="w3_footer_grid_list">
-					<li><a href="about.html">Sobre nosotros</a></li>
+					<li><a href="about.php">Sobre nosotros</a></li>
 				</ul>
 			</div>
 			<div class="col-md-6 w3_footer_grid">
 				<h3>Politicas del sitio</h3>
 				<ul class="w3_footer_grid_list">
-					<li><a href="privacy.html">Politicas de privacidad</a></li>
-					<li><a href="privacy.html">Equipo de trabajo</a></li>
+					<li><a href="privacy.php">Politicas de privacidad</a></li>
+					<li><a href="privacy.php">Equipo de trabajo</a></li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>
@@ -277,6 +281,6 @@ $(document).ready(function(){
 			}
 		});
 
-	</script>
+	</script>s
 </body>
 </html>

@@ -40,7 +40,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- header -->
 	<div class="agileits_header">
 		<div class="w3l_offers">
-			<a href="products.html">Ofertas especiales!</a>
+			<a href="#">Ofertas especiales!</a>
 		</div>
 		<div class="w3l_search">
 			<form action="#" method="post">
@@ -53,7 +53,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <fieldset>
                     <input type="hidden" name="cmd" value="_cart" />
                     <input type="hidden" name="display" value="1" />
-                    <input type="submit" name="submit" value="Ver carrito     " class="button" />
+                    <input type="submit" name="submit" value="Ver carrito" class="button" />
                 </fieldset>
             </form>
 		</div>
@@ -73,7 +73,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</ul>
 		</div>
 		<div class="w3l_header_right1">
-			<h2><a href="mail.html">Contáctenos</a></h2>
+			<h2><a href="mail.php">Contáctenos</a></h2>
 		</div>
 		<div class="clearfix"> </div>
 	</div>
@@ -114,7 +114,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<ul>
 				<li><i class="fa fa-home" aria-hidden="true"></i><a href="index.php">Pagina Principal</a><span>|</span></li>
-				<li>Colchonetas-Esterillas</li>
+				<li>Bandas Elasticas</li>
 			</ul>
 		</div>
 	</div>
@@ -135,37 +135,37 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			   <!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav nav_1">
-						<li><a href="AumentoMasa.html">Aumento de Masa</a></li><!--Branded Foods-->
-						<li><a href="Barritas.html">Barritas</a></li><!-- Households-->
+						<li><a href="AumentoMasa.php">Aumento de Masa</a></li><!--Branded Foods-->
+						<li><a href="Barritas.php">Barritas</a></li><!-- Households-->
 						<li class="dropdown mega-dropdown active">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Accesorios de Entrenamiento<span class="caret"></span></a><!--Veggies & Fruits-->			
 							<div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
 								<div class="w3ls_vegetables">
 									<ul>	
-										<li><a href="EntrenamientoAbdominal.html">Entrenamiento Abdominal</a></li>
-										<li><a href="BandasElasticas.html">Bandas Elasticas</a></li>
-										<li><a href="ColchonetasEsterillas.html">Colchonetas / Esterillas</a></li>
-										<li><a href="Fitballs.html">Fitballs</a></li>
+										<li><a href="EntrenamientoAbdominal.php">Entrenamiento Abdominal</a></li>
+										<li><a href="BandasElasticas.php">Bandas Elasticas</a></li>
+										<li><a href="ColchonetasEsterillas.php">Colchonetas - Esterillas</a></li>
+										<li><a href="Fitballs.php">Fitballs</a></li>
 									</ul>
 								</div>                  
 							</div>				
 						</li>
-						<li><a href="ControlPeso.html">Control de Peso</a></li>
-						<li><a href="Energeticos.html">Energeticos</a></li>
-						<li><a href="Proteinas.html">Proteínas</a></li>
-						<li><a href="VitaminasMinerales.html">Vitaminas y Minerales</a></li>
+						<li><a href="ControlPeso.php">Control de Peso</a></li>
+						<li><a href="Energeticos.php">Energeticos</a></li>
+						<li><a href="Proteinas.php">Proteínas</a></li>
+						<li><a href="VitaminasMinerales.php">Vitaminas y Minerales</a></li>
 					</ul>
 				 </div><!-- /.navbar-collapse -->
 			</nav>
 		</div>
 		<div class="w3l_banner_nav_right">
-			<div class="w3l_banner_nav_right_bannerEsterillas w3l_banner_nav_right_banner_pet">
+			<div class="w3l_banner_nav_right_bannerBandas w3l_banner_nav_right_banner_pet">
 				<h4>Accesorios de Entrenamiento</h4>
 				<p></p>
-				<a href="single.html">Comprar ahora</a>
+				<a href="#">Comprar ahora</a>
 			</div>
 			<div class="w3ls_w3l_banner_nav_right_grid w3ls_w3l_banner_nav_right_grid_sub">
-				<h3 class="w3l_fruit">Colchonetas - Esterillas</h3>
+				<h3 class="w3l_fruit">Bandas Elásticas</h3>
 				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
 					<div class="col-md-3 w3ls_w3l_banner_left w3ls_w3l_banner_left_asdfdfd">
 						<div class="hover14 column">
@@ -177,9 +177,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<figure>
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
-											<a href="single.html"><img src="images/Productos/accesoriosEntrenamiento/ColchonetasEsterillas/Adidas-esterilla.jpg" alt=" " class="img-responsive" /></a>
-											<p>Esterilla Adidas</p>
-											<h4>$8<span>$10</span></h4>
+											<a href="#"><img src="images/Productos/accesoriosEntrenamiento/bandasElasticas/Reebok-PowerBandLevel2-1.jpg" alt=" " class="img-responsive" alt=" " class="img-responsive"  /> </a>
+											<p>Power Band Reebok</p>
+											<h4>$7 <span>$8</span></h4>
 										</div>
 										<div class="snipcart-details">
 											<form action="#" method="post">
@@ -187,7 +187,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													<input type="hidden" name="cmd" value="_cart" />
 													<input type="hidden" name="add" value="1" />
 													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="Esterilla Adidas" />
+													<input type="hidden" name="item_name" value="Power Band Reebok" />
 													<input type="hidden" name="amount" value="8.00" />
 													<input type="hidden" name="discount_amount" value="1.00" />
 													<input type="hidden" name="currency_code" value="USD" />
@@ -213,10 +213,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<figure>
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
-											<a href="single.html"><img src="images/Productos/accesoriosEntrenamiento/ColchonetasEsterillas/Tunturi-FitnessmatNBR-Pink-1.jpg" alt=" " class="img-responsive" /></a>
-											<p>Esterilla Tunturi</p>
-											<h4>$7<span>$9
-											.00</span></h4>
+											<a href="#"><img src="images/Productos/accesoriosEntrenamiento/bandasElasticas/Reebok-ResistanceTube-1.jpg" alt=" " class="img-responsive" /></a>
+											<p>Banda de Resistencia Reebok</p>
+											<h4>$10 <span>$12</span></h4>
 										</div>
 										<div class="snipcart-details">
 											<form action="#" method="post">
@@ -224,7 +223,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													<input type="hidden" name="cmd" value="_cart" />
 													<input type="hidden" name="add" value="1" />
 													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="Esterilla Tunturi" />
+													<input type="hidden" name="item_name" value="Banda de Resistencia Reebok" />
 													<input type="hidden" name="amount" value="5.00" />
 													<input type="hidden" name="discount_amount" value="1.00" />
 													<input type="hidden" name="currency_code" value="USD" />
@@ -250,9 +249,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<figure>
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
-											<a href="single.html"><img src="images/Productos/accesoriosEntrenamiento/ColchonetasEsterillas/Adidas-StretchMat-1.jpg" alt=" " class="img-responsive" /></a>
-											<p>Esterilla Adidas</p>
-											<h4>$9.00 <span>$11.00</span></h4>
+											<a href="#"><img src="images/Productos/accesoriosEntrenamiento/bandasElasticas/SKLZ.jpg" alt=" " class="img-responsive" /></a>
+											<p>Banda SKLZ</p>
+											<h4>$6 <span>$7</span></h4>
 										</div>
 										<div class="snipcart-details">
 											<form action="#" method="post">
@@ -260,11 +259,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													<input type="hidden" name="cmd" value="_cart" />
 													<input type="hidden" name="add" value="1" />
 													<input type="hidden" name="business" value=" " />
-													<input type="hidden" name="item_name" value="Esterilla Adidas" />
+													<input type="hidden" name="item_name" value="Banda SKLZ" />
 													<input type="hidden" name="amount" value="9.00" />
 													<input type="hidden" name="discount_amount" value="1.00" />
 													<input type="hidden" name="currency_code" value="USD" />
-													<input type="submit" name="submit" value="Añadir al Carrito" class="button" />													
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Añadir al Carrito" class="button" />
 												</fieldset>
 											</form>
 										</div>
@@ -274,16 +275,54 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						</div>
 					</div>
-					
+					<div class="col-md-3 w3ls_w3l_banner_left">
+						<div class="hover14 column">
+						<div class="agile_top_brand_left_grid w3l_agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid_pos">
+								<img src="images/offer.png" alt=" " class="img-responsive" />
+							</div>
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img src="images/Productos/accesoriosEntrenamiento/bandasElasticas/SKLZ-SingleQuickChangeFlexHandle.jpg" alt=" " class="img-responsive" /></a>
+											<p>Banda Flexible SKLZ</p>
+											<h4>$12 <span>$14</span></h4>
+										</div>
+										<div class="snipcart-details">
+											<form action="#" method="post">
+												<fieldset>
+													<input type="hidden" name="cmd" value="_cart" />
+													<input type="hidden" name="add" value="1" />
+													<input type="hidden" name="business" value=" " />
+													<input type="hidden" name="item_name" value="Banda Flexible SKLZ" />
+													<input type="hidden" name="amount" value="15.00" />
+													<input type="hidden" name="discount_amount" value="1.00" />
+													<input type="hidden" name="currency_code" value="USD" />
+													<input type="hidden" name="return" value=" " />
+													<input type="hidden" name="cancel_return" value=" " />
+													<input type="submit" name="submit" value="Añadir al Carrito" class="button" />
+												
+												</fieldset>
+											</form>
+										</div>
 									</div>
 								</figure>
 							</div>
 						</div>
 						</div>
 					</div>
+
 					<div class="clearfix"> </div>
 				</div>
-				
+				<div class="w3ls_w3l_banner_nav_right_grid1 w3ls_w3l_banner_nav_right_grid1_veg">
+					
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
 <!-- //banner -->
 <!-- footer -->
 	<div class="footer">
@@ -291,24 +330,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-4 w3_footer_grid">
 				<h3>Información</h3>
 				<ul class="w3_footer_grid_list">
-					<li><a href="about.html">Sobre nosotros</a></li>
+					<li><a href="about.php">Sobre nosotros</a></li>
 				</ul>
 			</div>
 			<div class="col-md-4 w3_footer_grid">
 				<h3>Politicas del sitio</h3>
 				<ul class="w3_footer_grid_list">
-					<li><a href="privacy.html">Politicas de privacidad</a></li>
-					<li><a href="privacy.html">Equipo de trabajo</a></li>
+					<li><a href="privacy.php">Politicas de privacidad</a></li>
+					<li><a href="privacy.php">Equipo de trabajo</a></li>
 				</ul>
 			</div>
 			<div class="col-md-4 w3_footer_grid">
 				<h3>Que podes encontrar en la tienda</h3>
 				<ul class="w3_footer_grid_list">
-					<li><a href="pet.html">Proteinas</a></li>
-					<li><a href="frozen.html">Vitaminas y minerales</a></li>
-					<li><a href="kitchen.html">Productos para control de peso</a></li>
-					<li><a href="products.html">...</a></li>
-					<li><a href="household.html">...</a></li>
+					<li><a href="Proteinas.php">Proteinas</a></li>
+					<li><a href="VitaminasMinerales.php">Vitaminas y minerales</a></li>
+					<li><a href="ControlPeso.php">Productos para control de peso</a></li>
+					<li><a href="Fitballs.php">Fitballs</a></li>
+					<li><a href="Barritas.php">Barritas y mucho mas.</a></li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>
