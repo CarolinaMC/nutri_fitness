@@ -105,31 +105,31 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="w3l_banner_nav_right">
 <!-- login -->
 		<div class="w3_login">
-			<h3>Sign In & Sign Up</h3>
+			<h3>Iniciar sesión & Cerrar sesión</h3>
 			<div class="w3_login_module">
 				<div class="module form-module">
 				  <div class="toggle"><i class="fa fa-times fa-pencil"></i>
-					<div class="tooltip">Click Me</div>
+					<div class="tooltip">Crear una cuenta</div>
 				  </div>
 				  <div class="form">
-					<h2>Iniciar sesión</h2>
+					<h2>Ingrese su cuenta</h2>
 					<label>
 					<?php if(isset($_SESSION["errMsg"])) {echo "Username o contrasena incorrecta"; } ?>
 					</label>
 					<form action="datosLogin.php" method="post"><!-- javascript:void(0);-->
-					  <input id="Username" type="text" name="Username" placeholder="Username" required=" ">
-					  <input id="password1" type="password" name="Password" placeholder="Password" required=" ">
-					  <input id="Login" type="submit" value="Login" "><!--onclick="revisar()-->
+					  <input id="Username" type="text" name="Username" placeholder="Usuario" required=" ">
+					  <input id="password1" type="password" name="Password" placeholder="Contraseña" required=" ">
+					  <input id="Login" type="submit" value="Ingresar" "><!--onclick="revisar()-->
 					</form>
 				  </div>
 				  <div  class="form">
-					<h2>Crear Cuenta</h2>
+					<h2>Crear una cuenta</h2>
 					<form action="registro.php" method="post">
-					  <input type="text" name="Username" placeholder="Username" required=" ">
-					  <input id="password" type="password" name="Password" placeholder="Password" required=" ">
-					  <input id="email" type="email" name="Email" placeholder="Email Address" required=" ">
-					  <input id="Phone" type="text" name="Phone" placeholder="Phone Number" required=" ">
-					  <input type="submit" value="Register">
+					 <input type="text" name="Username" placeholder="Usuario" required=" ">
+					  <input id="password" type="password" name="Password" placeholder="Contraseña" required=" ">
+					  <input id="email" type="email" name="Email" placeholder="Correo electrónico" required=" ">
+					  <input id="Phone" type="text" name="Phone" placeholder="Número de Teléfono" required=" ">
+					  <input type="submit" value="Registrar">
 					</form>
 				  </div>
 				  <?php
