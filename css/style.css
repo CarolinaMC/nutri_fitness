@@ -14,7 +14,12 @@ ul li,ol li{
 .agileits_header .w3l_header_right div{
     color: white;
 }
-
+body > div.agileits_header.fixed > div.w3l_header_right1 > h2{
+    margin-top: -27%;
+}
+body > div.agileits_header.fixed > div.w3l_header_right > ul > div{
+    margin-left: -35%;
+}
 p{
     margin:0;
 }
